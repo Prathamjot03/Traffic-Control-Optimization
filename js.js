@@ -28,9 +28,9 @@ function trafficLight(){
         if(n>=count){ 
             i++;
             n=1; 
-            // if(i==3){
-            //     i=0;    
-            // }   
+            if(i==12){
+                i=0;    
+             }   
         }
         if (i>=12 && n==count){
             i=0;
